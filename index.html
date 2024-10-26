@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXup - Login/Create Account</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>NEXup</h1>
+    </div>
+    <div class="container1">
+      <h2 id="formTitle">Create Account</h2>
+      <div id="formContainer">
+        <div class="input-group">
+          <h5>Full Name:</h5>
+          <input
+            type="text"
+            id="fullName"
+            class="input-field"
+            placeholder="ex: Rafsan Samir"
+          />
+        </div>
+        <div class="input-group">
+          <h5>Age:</h5>
+          <input type="number" id="age" class="input-field" placeholder="16" />
+        </div>
+        <div class="input-group">
+          <h5>Email:</h5>
+          <input
+            type="text"
+            id="email"
+            class="input-field"
+            placeholder="example@gmail.com"
+          />
+        </div>
+        <div class="input-group">
+          <h5>Create Username:</h5>
+          <input
+            type="text"
+            id="username"
+            class="input-field"
+            placeholder="Rafsan20"
+          />
+        </div>
+        <div class="input-group">
+          <h5>Create Password:</h5>
+          <input
+            type="password"
+            id="password"
+            class="input-field"
+            placeholder="Password"
+          />
+        </div>
+        <div class="input-group">
+          <h5>Confirm Password:</h5>
+          <input
+            type="password"
+            id="confirmPassword"
+            class="input-field"
+            placeholder="Repet Password"
+          />
+        </div>
+        <button id="createAccount" class="button">Create Account</button>
+        <div id="errorMessage" style="color: red; margin-top: 10px"></div>
+        <div>
+          <a href="#" id="loginLink" class="link"
+            >Already have an account? 𝕃𝕠𝕘𝕚𝕟</a
+          >
+        </div>
+      </div>
+
+      <div id="loginContainer" style="display: none">
+        <h2></h2>
+        <div class="input-group">
+          <h5>Email:</h5>
+          <input
+            type="text"
+            id="loginEmail"
+            class="input-field"
+            placeholder="example@gmail.com"
+          />
+        </div>
+        <div class="input-group">
+          <h5>Password:</h5>
+          <input
+            type="password"
+            id="loginPassword"
+            class="input-field"
+            placeholder="Password"
+          />
+        </div>
+        <button id="loginButton" class="button">Login</button>
+        <div id="loginErrorMessage" style="color: red; margin-top: 10px"></div>
+        <div>
+          <a href="#" id="createAccountLink" class="link">Create an account</a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: #e20000;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #860000; /* Red color */
+  padding: 20px;
+  text-align: center;
+}
+
+.container1 {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(16, 16, 16);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #e20000, #ff7e00); /* Red to Orange gradient */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.button:hover {
+  box-shadow: 0 0 4px rgb(255, 0, 0), 0 0 40px rgba(238, 255, 0, 0.5);
+}
